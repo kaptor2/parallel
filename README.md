@@ -1,5 +1,6 @@
 Есть недописаная функция "parallel(funcArray, doneAll)":
 
+```javascript 
 function parallel(funcArray, doneAll) {
 
 }
@@ -18,5 +19,6 @@ var b = function(done) {
 
 parallel([a,b], function(results) {
   console.log(results); // ['result a', 'result b']
-});
+}); 
+```
 Нужно её дописать. Что-то вроде аналога promise.all. И не забудьте, что результирующий массив должен сохранять тот порядок, в котором передавались функции.
