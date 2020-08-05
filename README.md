@@ -1,4 +1,4 @@
-Есть недописаная функция "parallel(funcArray, doneAll)":
+# Недописаная функция "parallel(funcArray, doneAll)":
 
 ```javascript 
 function parallel(funcArray, doneAll) {
