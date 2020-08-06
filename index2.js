@@ -4,13 +4,13 @@ function parallel(funcArray, doneAll) {
   Promise.all(promises).then(value => doneAll(value));
 }
 
-var a = function(done) {
+const a = (done) =>  {
   setTimeout(() => {
     done('result a');
   }, 300);
 };
 
-var b = function(done) {
+const b = (done) => {
   setTimeout(() => {
     done('result b');
   }, 200);
